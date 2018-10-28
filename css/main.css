@@ -1,0 +1,182 @@
+/****BASE STYLES****/
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	padding: 20px;
+
+}
+
+@font-face {
+	font-family: 'wisdom script';
+	src: url('../fonts/wisdom-script.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#container {
+	width: 1230px;
+	margin: 0 auto;
+}
+
+
+/****GRID****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+
+	height: 180px;
+
+}
+.footer{
+	width: 1200px;
+}
+/*********** HEADER ***********/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+	font-size: 30px;
+}
+#Logo {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/********* Top Section ********/
+
+#top-section{
+	width: 1200px;
+}
+
+#top-section{
+	margin: 0 auto;
+	clear: both;
+}
+
+.about {
+	float: left;
+}
+
+#top-section h3{
+	font-size: 18px;
+	color: #77a466;
+
+}
+
+.about p {
+	font-size: 14px;
+	padding-top: 30px;
+}
+
+#hero-img{
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+	margin-bottom: 30px;
+	height: auto;
+	float: center;
+}
+
+
+
+/******* Bottom Section *******/
+#bottom-section{
+	margin: 0 auto;
+	clear: both;
+
+}
+
+#bottom-section h3, h4{
+	padding-left: 30px;
+	font-size: 10px;
+}
+
+#reviews p{
+	width: 325px;
+	padding-left:  30px;
+	font-size: 14px;
+}
+
+#specials ul li{
+	display: block;
+	color: #77a466;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+#specials, #reviews, #address{
+	border-top:  1px solid #eee;
+	padding-top: 30px;
+}
+
+#address p{
+	text-transform: small-caps;
+	padding-left: 37px;
+	font-size: 15px;
+}
+
+#reviews{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+/*********** Footer  **********/
+
+
+.footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	text-transform: uppercase;
+}
+#fresh {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}

@@ -1,0 +1,192 @@
+/***********BASE STYLE***********/
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+
+
+}
+
+@font-face {
+	font-family: 'wisdom script';
+	src: url('../fonts/wisdom-script.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, h2,h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#container {
+	width: 1230px;
+	margin: 0 auto;
+	vertical-align: baseline;
+}
+
+p{
+  line-height: 18.75px;
+}
+/***********GRID STYLE***********/
+
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	float: left;
+	height: 180px;
+
+}
+.footer{
+	width: 1200px;
+}
+/*************HEADER*************/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+  padding-left: 15px;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+	font-size: 30px;
+}
+.logo span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+
+
+/**************TOP***************/
+
+#top-section{
+  width: 1200px;
+  padding-bottom: 65px;
+}
+
+#top-section{
+  margin: 0 auto;
+  clear: both;
+}
+
+.about {
+  float: left;
+}
+
+#top-section h3{
+  font-size: 18px;
+  padding: 5px 0;
+  color: #77a466;
+
+}
+
+.about p {
+  font-size: 14px;
+}
+
+#hero-img{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+  height: auto;
+  float: left;
+}
+
+
+
+
+/*************BOTTOM*************/
+#bottom-section{
+	margin: 0 auto;
+	clear: both;
+
+}
+
+#bottom-section h3, h4{
+  text-align: left;
+	font-size: 14px;
+  padding-left: 30px;
+}
+
+#reviews p{
+	width: 325px;
+	padding-left:  30px;
+	font-size: 14px;
+}
+
+#specials ul li{
+	display: block;
+	color: #77a466;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#specials{
+	float: left;
+}
+#specials, #reviews, #address{
+	border-top:  1px solid #eee;
+	padding-top: 30px;
+}
+
+#address p{
+	text-transform: small-caps;
+	padding-left: 37px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+#reviews{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+/*************FOOTER*************/
+
+.footer {
+  height: 50px;
+	font-weight: bold;
+  border-top: 3px solid #eee;
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+}
+#fresh {
+  font-family: 'Wisdom Script', cursive;
+  text-transform: lowercase;
+  color: #77a466;
+  font-size: 18px;
+}
